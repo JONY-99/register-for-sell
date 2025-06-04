@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../reg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    /* opacity: 0.8; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.signup_form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.199), rgba(53, 52, 52, 0.353));
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    border: 1px solid black;
+    backdrop-filter: brightness(80%);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+select, input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+option {
+    background-color: #555B5D;
+}
+
+input[type="file"] {
+    position: relative;
+    overflow: hidden;
+}
+
+input::file-selector-button {
+    position: absolute;
+    right: -5px;
+    top: 0;
+    background-color: transparent;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 40%;
+    background-color: #4e8aef;
+    color: white;
+}
+
+button, .btn-plus {
+    background-color: #4e8aef;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: #3971c3;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: #4e8aef;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
